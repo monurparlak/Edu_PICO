@@ -1,0 +1,3 @@
+C:/Users/RECEP/Desktop/GithubS/TEST-PICO/_0_introduction/build/pioasm/CMakeFiles/pioasm.dir
+C:/Users/RECEP/Desktop/GithubS/TEST-PICO/_0_introduction/build/pioasm/CMakeFiles/edit_cache.dir
+C:/Users/RECEP/Desktop/GithubS/TEST-PICO/_0_introduction/build/pioasm/CMakeFiles/rebuild_cache.dir

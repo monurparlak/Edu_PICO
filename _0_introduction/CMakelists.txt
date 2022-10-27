@@ -1,0 +1,28 @@
+cmake_minimum_required(VERSION 3.19)
+
+pico_sdk_init()
+
+set_property(TARGET _0_introduction PROPERTY CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_TOOLCHAIN_FILE C:/src/pico-sdk/cmake/preload/toolchains/pico_arm_gcc.cmake)
+set(PICO_SDK_PATH C:/src/pico-sdk/)
+set(PICO_COPY_TO_RAM true)
+set(PICO_BOARD pico_w)
+set(CMAKE_EXPORT_COMPILE_COMMANDS true)
+
+include(C:/src/pico-examples/pico_sdk_import.cmake)
+
+project(_0_introduction)
+
+add_executable(_0_introduction main.cpp)
+pico_enable_stdio_usb(_0_introduction 1)
+pico_enable_stdio_uart(_0_introduction 0)
+
+target_link_libraries(_0_introduction pico_stdlib 
+hardware_uart 
+pico_bootsel_via_double_reset pico_stdio_usb pico_cyw43_arch_none) 
+
+target_compile_options(_0_introduction PRIVATE $<$<COMPILE_LANGUAGE:CXX>:-std=c++20>)
+target_include_directories(_0_introduction PUBLIC include)
+
+pico_add_extra_outputs(_0_introduction)

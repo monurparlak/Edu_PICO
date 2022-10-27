@@ -1,0 +1,1 @@
+cmd='C:/Program Files (x86)/CMake/bin/cmake.exe;-GMinGW Makefiles;-C<TMP_DIR>/PioasmBuild-cache-$<CONFIG>.cmake;<SOURCE_DIR><SOURCE_SUBDIR>'
