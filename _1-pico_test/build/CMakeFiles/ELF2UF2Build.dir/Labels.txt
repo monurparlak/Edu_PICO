@@ -1,0 +1,13 @@
+# Target labels
+ ELF2UF2Build
+# Source files and their labels
+D:/Main_Files/TEST_PICO_2/Examples/_1-pico_test/build/CMakeFiles/ELF2UF2Build
+D:/Main_Files/TEST_PICO_2/Examples/_1-pico_test/build/CMakeFiles/ELF2UF2Build.rule
+D:/Main_Files/TEST_PICO_2/Examples/_1-pico_test/build/CMakeFiles/ELF2UF2Build-complete.rule
+D:/Main_Files/TEST_PICO_2/Examples/_1-pico_test/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+D:/Main_Files/TEST_PICO_2/Examples/_1-pico_test/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+D:/Main_Files/TEST_PICO_2/Examples/_1-pico_test/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+D:/Main_Files/TEST_PICO_2/Examples/_1-pico_test/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+D:/Main_Files/TEST_PICO_2/Examples/_1-pico_test/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+D:/Main_Files/TEST_PICO_2/Examples/_1-pico_test/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+D:/Main_Files/TEST_PICO_2/Examples/_1-pico_test/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule
